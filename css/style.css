@@ -1,0 +1,20 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* body{
+   background: linear-gradient(to top,#43035c ,#f2d0ff);
+} */
+
+.overly-layer{
+    visibility: hidden;
+}
+.inner-card:hover .overly-layer{
+visibility: visible;
+}
+.inner-card img{
+    height: 250px;
+    object-fit: contain;
+}
